@@ -8,11 +8,11 @@ const foreground = new Image();
 const pipeUp = new Image(); 
 const pipeBottom = new Image(); 
 
-bird.src = "img/bird.png";
-background.src = "img/bg.png";
-foreground.src = "img/fg.png";
-pipeUp.src = "img/pipeUp.png"; 
-pipeBottom.src = "img/pipeBottom.png";
+bird.src = "/JS/game-flappy_bird/img/bird.png";
+background.src = "C:\JS\game-flappy_bird\img\bg.png";
+foreground.src = "img\fg.png";
+pipeUp.src = "https://github.com/katya32/game-flappy_bird/blob/e59c40cc0946a9727519af1e2cb3da7056084c08/img/pipeBottom.png"; 
+pipeBottom.src = "../img/pipeBottom.png";
 
 const fly = new Audio(); 
 const score_audio = new Audio(); 
