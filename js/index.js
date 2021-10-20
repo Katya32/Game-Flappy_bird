@@ -7,11 +7,11 @@ var fg = new Image();
 var pipeNorth = new Image();  
 var pipeSouth = new Image();  
   
-bird.src = "img/bird.png";  
-bg.src = "img/bg.png";  
-fg.src = "img/fg.png";  
-pipeNorth.src = "img/pipeUp.png";  
-pipeSouth.src = "img/pipeBottom.png";  
+bird.src = "img\bird.png";  
+bg.src = "img\bg.png";  
+fg.src = "img\fg.png";  
+pipeNorth.src = "img\pipeUp.png";  
+pipeSouth.src = "img\pipeBottom.png";  
   
 var gap = 85;  
 var constant;  
